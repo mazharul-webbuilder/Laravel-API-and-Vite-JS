@@ -13,3 +13,7 @@ require  __DIR__ . '/task-list-app.php';
 Route::fallback(function () {
     return 'If No route is found, this route will execute';
 });
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
