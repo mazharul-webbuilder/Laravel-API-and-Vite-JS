@@ -2,6 +2,7 @@
 use Illuminate\Support\Facades\Route;
 
 require  __DIR__ . '/task-list-app.php';
+require  __DIR__ . '/custom-css-js-with-vite.php';
 
 
 
